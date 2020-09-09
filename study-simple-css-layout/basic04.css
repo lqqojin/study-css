@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    background: pink;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.item {
+    float: left;
+    padding: 5%;
+}
+
+.item-a {
+    width: 30%;
+    background-color: yellow;
+}
+
+.item-b {
+    width: 50%;
+    background-color: greenyellow;
+}
+
+footer {
+    /*clear: both;*/
+    background: lightgray;
+}

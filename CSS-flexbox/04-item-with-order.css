@@ -1,0 +1,35 @@
+body {
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    /*flex-direction: row;*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    background: lightgray;
+}
+
+.item {}
+
+.item:nth-child(1) {
+    background-color: skyblue;
+    flex: 1;  /*flex-basis: 0; 기본 설정*/
+    order: 2;
+}
+.item:nth-child(2) {
+    background: rgba(255, 150, 0, 0.5);
+    flex: 2;  /*flex-basis: 0; 기본 설정*/
+    order: 3;
+}
+.item:nth-child(3) {
+    background: rgba(255, 255, 150, 0.5);
+    flex: 1;  /*flex-basis: 0; 기본 설정*/
+    order: 1;
+}
+
+img {
+    width: 250px;
+    /*height: 250px;*/
+}
